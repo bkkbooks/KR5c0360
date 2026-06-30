@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0360/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0360/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 御制真武廟碑
+  date: '2015-08-29 00:56:53.913040'
+  source:
+    repository: kanripo
+    path: KR5c0360
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0360_000-ZTDZ.yaml, hash: 'sha256:97cf2eb5332e2aa50d07fa5c6ba5045b8c69ddc3085a12479e87046480422097'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0360_000-ZTDZ.markers.yaml, hash: 'sha256:2b5e5b80290ddabad1666c103f300fe144d471a26d9956926ccec17a8224d036'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0360_SJB_000-190640b
+    span:
+    - body
+    - 0
+    - 787
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4bba6c6a15722a7a5729b61968f7236ccc44d27dee243096f2bd32eefcf26a1e
